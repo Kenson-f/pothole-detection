@@ -1,10 +1,10 @@
-# 🕳️ Pothole Detection Using Image-Based Data Mining
+# Pothole Detection Using Image-Based Data Mining
 
 A comprehensive image processing pipeline developed to detect potholes in road images without using pre-trained models. This project was built as part of a 2nd-year AI & DS course at Shiv Nadar University, Chennai.
 
 ---
 
-## 🚀 Features
+## Features
 
 - Manual grayscale conversion, Gaussian blur, adaptive thresholding
 - Morphological operations (open, close) to clean binary images
@@ -21,7 +21,7 @@ A comprehensive image processing pipeline developed to detect potholes in road i
 
 ---
 
-## 🧠 Why Manual Implementation?
+## Why Manual Implementation?
 
 - Educational value: Understand how each algorithm works internally
 - Avoid dependency on OpenCV for core functions
@@ -30,7 +30,7 @@ A comprehensive image processing pipeline developed to detect potholes in road i
 
 ---
 
-## 🖼️ Architecture
+## Architecture
 
 1. Convert to grayscale
 2. Apply Gaussian blur
@@ -44,5 +44,24 @@ A comprehensive image processing pipeline developed to detect potholes in road i
 
 ---
 
-## 📂 Dataset Structure
+## Dataset Structure
+1. Images with Pothole
+2. Images with no Pothole
+
+
+---
+
+##  How to Run
+
+###  Requirements
+- Python 3.x
+- `numpy`
+- `matplotlib`
+- `PIL` (Pillow)
+
+### ▶️ Run Single Image Detection
+
+```bash
+python detect_potholes.py --image path/to/image.jpg --debug
+
 
